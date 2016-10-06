@@ -11,19 +11,15 @@ for ($num = 1; $num <= 100; $num++) {
 	 
 	if ((($num % 3) == 0) and (($num % 5) == 0)){
 		// Verifica se o número é dividido por 3 e 5.
-        echo 'FizzBuzz';
-		echo '<br>';
+        echo 'FizzBuzz'.'<br>';
 	} elseif (($num % 3) == 0) {
 		// Verifica se o número é dividido por 3.
-		echo 'Fizz';
-		echo '<br>';
+		echo 'Fizz'.'<br>';
 	} elseif (($num % 5) == 0) {
 		// Verifica se o número é dividido por 5.
-		echo 'Buzz';
-		echo '<br>';
+		echo 'Buzz'.'<br>';
 	} else {
-		echo $num; 
-	    echo '<br>';
+		echo $num.'<br>';
 	}
 	
     }
